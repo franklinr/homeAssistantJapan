@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+ 
+        .anybutton {
+        top:20px;
+        left:20%;
+        width:70%;
+        height: 100%;
+        position:absolute;
+        background: orange; 
+        font-size: 30px;
+        }
+        
+       </style>
+    </head>
+
+     <button id="listen" class="anybutton" onclick="toggleSnd()">Listen</button>
+    
+     <iframe id="sndcam" src="https://gortc.MYMACHINE.synology.me/stream.html?src=soundonly" allow="autoplay" frameborder="0" height="100%" width="100%"></iframe>
+
+     <script>
+
+function toggleSnd() {
+    var x = document.getElementById("sndcam");
+    var but = document.getElementById("listen");
+    //alert(x.src); 
+    if (x.src === 'https://gortc.MYMACHINE.synology.me/stream.html?src=soundonly') {
+      x.src = "";
+      but.style.backgroundColor = "yellow";
+    } else {
+      x.src = 'https://gortc.MYMACHINE.synology.me/stream.html?src=soundonly';
+      but.style.backgroundColor = "orange";
+    }
+}
+      </script>
+
+</html>

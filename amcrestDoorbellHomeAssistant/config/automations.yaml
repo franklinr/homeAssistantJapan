@@ -1,0 +1,33 @@
+- id: '167497800548'
+  alias: goToDoorbellDash
+  description: ''
+  trigger:
+  - platform: state
+    entity_id:
+    - binary_sensor.front_door_bell_motion
+    to: 'on'
+  condition: []
+  action:
+  - service: browser_mod.navigate
+    data:
+      path: /dashboard-doorbellmic/default_view
+    target:
+      device_id: 667c6661833cb8be6a99c9d4caea99
+  mode: single
+- id: '16749813979'
+  alias: returnDefaultSensorDash
+  description: ''
+  trigger:
+  - platform: state
+    entity_id:
+    - binary_sensor.front_door_bell_motion
+    from: 'on'
+    to: 'off'
+  condition: []
+  action:
+  - service: browser_mod.navigate
+    data:
+      path: /lovelace/home
+    target:
+      device_id: 667c6661833cb8b27a99c9d4caea99
+  mode: single

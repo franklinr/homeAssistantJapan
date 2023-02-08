@@ -1,0 +1,11 @@
+streams:
+  amcrestdoorbellnoback:
+    - rtsp://admin:PASSS@HOMEASSISTANTADDRESS:554/cam/realmonitor?channel=1&subtype=0#backchannel=0
+  amcrestdoorbellback:
+    - rtsp://admin:PASSS@HOMEASSISTANTADDRESS:554/cam/realmonitor?channel=1&subtype=0
+    - ffmpeg:rtsp://admin:PASSS@HOMEASSISTANTADDRESS:554/cam/realmonitor?channel=1&subtype=0#audio=aac
+    - ffmpeg:rtsp://admin:PASSS@HOMEASSISTANTADDRESS:554/cam/realmonitor?channel=1&subtype=0#audio=opus
+  soundonly: 
+    - ffmpeg:rtsp://admin:PASSS@HOMEASSISTANTADDRESS:554/cam/realmonitor?channel=1&subtype=0#audio=opus
+    - ffmpeg:rtsp://admin:PASSS@HOMEASSISTANTADDRESS:554/cam/realmonitor?channel=1&subtype=0#audio=aac
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+ 
+        .anybutton {
+        top:20px;
+        left:20%;
+        width:70%;
+        height: 70%;
+        position:absolute;
+        background: yellow; 
+        font-size: 30px;
+        }
+        
+       </style>
+    </head>
+    
+     <button id="speak" class="anybutton" onclick="toggleMic()">Speak</button>
+
+     <iframe id="miccam" src="" allow="camera *;microphone *" frameborder="0" height="100%" width="100%"></iframe>
+
+     <script>
+function toggleMic() {
+    var x = document.getElementById("miccam");
+    var but = document.getElementById("speak");
+   // alert(but); 
+    if (x.src === 'https://gortc.MYMACHINE.synology.me/webrtc.html?src=amcrestdoorbellback') {
+      x.src = "";
+      but.style.backgroundColor = "yellow";
+    } else {
+      x.src = 'https://gortc.MYMACHINE.synology.me/webrtc.html?src=amcrestdoorbellback';
+      but.style.backgroundColor = "orange";
+  }
+}
+
+      </script>
+
+</html>
