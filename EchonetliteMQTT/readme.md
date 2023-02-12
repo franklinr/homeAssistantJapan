@@ -47,6 +47,6 @@ stat_types:
   - change
 ```
 
-For more information about how to use mqtt with a wide range of devices, see this page [Home Assistant to Echonetlight using mqtt] (https://qiita.com/banban525/items/520caead4f5f8dbb9ced).
+For more information about how to use mqtt with a wide range of devices, see this page [Home Assistant to Echonetlight using mqtt](https://qiita.com/banban525/items/520caead4f5f8dbb9ced).
 
 
