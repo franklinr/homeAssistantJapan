@@ -1,0 +1,23 @@
+mqtt:
+  sensor:
+    - name: "energy channel 11total"
+      unique_id: energy_channel11total
+      state_topic: "echonetlite2mqtt/elapi/v2/devices/fe00000b000003270100c08ffffe75e3f8/properties/measurementChannel11"
+      unit_of_measurement: "kWh"
+      value_template: "{{ value_json.electricEnergy * 0.01 }}"
+      state_class: "total_increasing"
+      device_class: "energy"
+    - name: "energy channel 14total"
+      unique_id: energy_channel14total  
+      state_topic: "echonetlite2mqtt/elapi/v2/devices/fe00000b000003270100c08ffffe75e3f8/properties/measurementChannel14"
+      unit_of_measurement: "kWh"
+      value_template: "{{ value_json.electricEnergy * 0.01 }}"
+      state_class: "total_increasing"
+      device_class: "energy"
+    - name: "energy channel 21total"
+      unique_id: energy_channel21total  
+      state_topic: "echonetlite2mqtt/elapi/v2/devices/fe00000b000003270100c08ffffe75e3f8/properties/measurementChannel21"
+      unit_of_measurement: "kWh"
+      value_template: "{{ value_json.electricEnergy * 0.01 }}"
+      state_class: "total_increasing"
+      device_class: "energy"
