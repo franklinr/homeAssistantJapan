@@ -39,6 +39,6 @@ https://home.MYMACHINE.synology.me/local/listen.html
 https://home.MYMACHINE.synology.me/local/speak.html
 
 8. Finally, I have it so that my system will switch to the doorbell dashboard when there is motion in the camera area.
-This is done using my [automation.yaml](https://github.com/franklinr/amcrestDoorbellHomeAssistant/blob/bf00faa35c967f0995ffaddd7e65ebf9ea03c996/config/automations.yaml).
+This is done using my [automation.yaml](https://github.com/franklinr/amcrestDoorbellHomeAssistant/blob/bf00faa35c967f0995ffaddd7e65ebf9ea03c996/config/automations.yaml) which requires [browser_mod](https://github.com/thomasloven/hass-browser_mod) to switch dashboards.
 
 
