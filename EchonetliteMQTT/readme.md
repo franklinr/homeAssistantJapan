@@ -1,6 +1,6 @@
 # Connecting Panasonic distribution board to Home Assistant
 
-Many smart devices in Japan use echonetlite to send their information to devices that aggregate that information.  To import this data into HA, we setup a MQTT server that will collect echonetlite data and publish it.  Then HA can read this server and import that data into HA.  Here I will show to connect a channel from my air conditioner to home assistant, so that I can monitor when the air condition is on.
+Many smart devices in Japan use echonetlite to send their information to devices that aggregate that information.  To import this data into HA, we setup a MQTT server that will collect echonetlite data and publish it.  Then HA can read this server and import that data into HA.  Here I will show to connect a channel from my air conditioner to home assistant, so that I can monitor when the air conditioner is on.
 
 ![Dashboard](https://github.com/franklinr/homeAssistantJapan/blob/57bfbd12f37f9a588ebf6e8ff24417e4a017e4e9/EchonetliteMQTT/distboard.JPG)
 
@@ -31,7 +31,7 @@ Compatible with Echonet Lite for Smart Cosmo
   
 3) Next you need to add code to the configuration.yaml to tell them which channels in the distribution board shoul be brought into HA.  For example, my 2nd floor air conditioner is on channel 11, so I import that as a sensor using this code.
 
-https://github.com/franklinr/homeAssistantJapan/blob/main/EchonetliteMQTT/configuration.yaml#L1-L9
+https://github.com/franklinr/homeAssistantJapan/blob/09721c25c3e3eb5fa90b16e9e3e23c69b0f28354/EchonetliteMQTT/configuration.yaml#L1-L9
 
 4) To see when the air conditioner is on, just use a statistic card with stat_type change and use the new channels that you imported.
 ```
