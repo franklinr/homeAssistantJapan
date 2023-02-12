@@ -29,7 +29,7 @@ Compatible with Echonet Lite for Smart Cosmo
   
   g) Launch your server. I was not able to access it directly using http://localhost:3000.
   
-3) Next you need to add code to the configuration.yaml to tell them which channels in the distribution board shoul be brought into HA.  For example, my 2nd floor air conditioner is on channel 11, so I import that as a sensor using this code.
+3) Next you need to add code to the [configuration.yaml](https://github.com/franklinr/homeAssistantJapan/blob/09721c25c3e3eb5fa90b16e9e3e23c69b0f28354/EchonetliteMQTT/configuration.yaml) to tell them which channels in the distribution board shoul be brought into HA.  For example, my 2nd floor air conditioner is on channel 11, so I import that as a sensor using this code.
 
 https://github.com/franklinr/homeAssistantJapan/blob/09721c25c3e3eb5fa90b16e9e3e23c69b0f28354/EchonetliteMQTT/configuration.yaml#L1-L9
 
