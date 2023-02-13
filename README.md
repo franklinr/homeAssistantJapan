@@ -8,4 +8,4 @@ This page details how to connect Home Assistant to various devices in a house in
 
 3) [Time/Date and Garbage reminder](https://github.com/franklinr/homeAssistantJapan/tree/main/TimeGarbageReminder)
 
-
+![HA](ha.png)
