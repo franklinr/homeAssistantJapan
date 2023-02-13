@@ -6,9 +6,11 @@ If you have a distribution board with a ethernet adapter, then the signals from 
 
 Once you set that up, you can create an account on the eco-fan website.  When you register, you will provide a HEMS code from your mini that will allow the eco-fan website to connect to it.
 
-When you do that, you should be able to login.  To actually connect with the distribution board, you need to go to settings and click on ECHONET Lite分電盤連携設定.  You should see the ip address for your distribution board in the first box.  For the channels, you should label them so that they match your distribution board setup.
+When you do that, you should be able to login.  To actually connect with the distribution board, you need to go to settings and click on ECHONET Lite分電盤連携設定.  You should see the ip address for your distribution board in the first box. 
 
 ![bunban](bunban.png)
 
+For the channels, you should label them so that they match your distribution board setup.
 
+![distboard](https://github.com/franklinr/homeAssistantJapan/blob/bb2713b6d3220527a81cca03540e9acc27d86c19/EchonetliteMQTT/distboard.JPG)
 
