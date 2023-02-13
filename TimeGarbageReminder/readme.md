@@ -1,4 +1,4 @@
-## Time and Garbage Reminder
+## Time/Date and Garbage Reminder
 
 ![timegarbage](timegarb.png)
 
