@@ -5,3 +5,5 @@ This page details how to connect Home Assistant to various devices in a house in
 1) [Amcrest AD410 doorbell with two way audio in home assistant](https://github.com/franklinr/homeAssistantJapan/tree/main/amcrestDoorbellHomeAssistant)
 
 2) [Monitoring an air conditioner through a distribution board using echonetlite and MQTT](https://github.com/franklinr/homeAssistantJapan/tree/main/EchonetliteMQTT) 
+
+3) [Time/Date and Garbage reminder](https://github.com/franklinr/homeAssistantJapan/tree/main/TimeGarbageReminder)
